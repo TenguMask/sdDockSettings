@@ -44,6 +44,12 @@ CHECKPOINT_MODELS=(
 )
 
 LORA_MODELS=(
+    "https://civitai.com/api/download/models/118945"
+    "https://civitai.com/api/download/models/151465"
+    "https://civitai.com/api/download/models/137901"
+    "https://civitai.com/api/download/models/117151"
+    "https://civitai.com/api/download/models/171133"
+    "https://civitai.com/api/download/models/313714"
     #"https://civitai.com/api/download/models/16576"
 )
 
@@ -56,6 +62,7 @@ VAE_MODELS=(
 ESRGAN_MODELS=(
     "https://huggingface.co/ai-forever/Real-ESRGAN/resolve/main/RealESRGAN_x4.pth"
     "https://huggingface.co/libsgo/4x-FaceUpSharpDAT/resolve/main/4xFaceUpSharpDAT.pth"
+    "https://civitai.com/api/download/models/158264"
   #  "https://huggingface.co/FacehugmanIII/4x_foolhardy_Remacri/resolve/main/4x_foolhardy_Remacri.pth"
     
 )
