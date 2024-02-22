@@ -43,16 +43,6 @@ CHECKPOINT_MODELS=(
     #"https://huggingface.co/stabilityai/stable-diffusion-xl-refiner-1.0/resolve/main/sd_xl_refiner_1.0.safetensors"
 )
 
-LORA_MODELS=(
-    "https://civitai.com/api/download/models/118945"
-    "https://civitai.com/api/download/models/151465"
-    "https://civitai.com/api/download/models/137901"
-    "https://civitai.com/api/download/models/117151"
-    "https://civitai.com/api/download/models/171133"
-    "https://civitai.com/api/download/models/313714"
-    #"https://civitai.com/api/download/models/16576"
-)
-
 VAE_MODELS=(
    # "https://huggingface.co/stabilityai/sd-vae-ft-ema-original/resolve/main/vae-ft-ema-560000-ema-pruned.safetensors"
     "https://huggingface.co/stabilityai/sd-vae-ft-mse-original/resolve/main/vae-ft-mse-840000-ema-pruned.safetensors"
@@ -71,6 +61,18 @@ GFPGAN_MODELS=(
     "https://github.com/TencentARC/GFPGAN/releases/download/v1.3.0/GFPGANv1.4.pth"
    
 )
+
+LORA_MODELS=(
+    "https://civitai.com/api/download/models/118945"
+    "https://civitai.com/api/download/models/151465"
+    "https://civitai.com/api/download/models/137901"
+    "https://civitai.com/api/download/models/117151"
+    "https://civitai.com/api/download/models/171133"
+    "https://civitai.com/api/download/models/313714"
+    #"https://civitai.com/api/download/models/16576"
+)
+
+
 
 CONTROLNET_MODELS=(
   #  "https://huggingface.co/webui/ControlNet-modules-safetensors/resolve/main/control_canny-fp16.safetensors"
